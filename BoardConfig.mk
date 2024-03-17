@@ -94,9 +94,6 @@ PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_CRYPTO_FBE := true
-TW_INCLUDE_FBE_METADATA_DECRYPT := true
-TW_NO_FASTBOOT_BOOT := true
 
 #TWRP Configuration
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
@@ -116,10 +113,6 @@ TW_INCLUDE_RESETPROP := true
 TW_THEME := portrait_hdpi
 TW_OEM_BUILD := true
 
-#logs
-TWRP_INCLUDE_LOGCAT := true
-TARGET_USES_LOGD := true
-
 #Excludes
 TW_EXCLUDE_APEX := true
 TW_EXCLUDE_PYTHON := true
@@ -130,12 +123,5 @@ TW_EXCLUDE_BASH := true
 TW_EXCLUDE_LPTOOLS := true
 TW_EXCLUDE_LPDUMP := true
 TW_EXCLUDE_SUPERSU := true
-
-#pbrp config
-PB_GO := TRUE
-PB_DISABLE_DEFAULT_DM_VERITY := true
-
-
-#shrp
-TW_USE_COMPRESSION_VAR := true
+TW_DISABLE_TTF:= true
 
