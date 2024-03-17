@@ -122,3 +122,6 @@ TW_EXCLUDE_LPDUMP := true
 TW_EXCLUDE_SUPERSU := true
 TW_DISABLE_TTF:= true
 
+#pbrp
+PB_GO := true
+PB_GO := TRUE
